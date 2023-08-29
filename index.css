@@ -7,9 +7,35 @@ body {
     background-color: rgba(211, 211, 211, 0.486);
 }
 
+.first, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(211, 211, 211, 0.486);
+}
+
+.second, body {
+    background-color: violet;
+}
+
+.third, body {
+    background-color: blueviolet;
+}
+
 header {
     background-color: cyan;
     border-radius: 5px 5px;
+}
+
+.one, header {
+    background-color: cyan;
+    border-radius: 5px 5px;
+}
+
+.two, header {
+    background-color: white;
+}
+
+.three, header {
+    background-color: blue;
 }
 
 h1 {
