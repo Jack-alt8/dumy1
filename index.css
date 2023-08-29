@@ -23,6 +23,7 @@ body {
 header {
     background-color: cyan;
     border-radius: 5px 5px;
+    display: flex;
 }
 
 .one, header {
@@ -39,21 +40,51 @@ header {
 }
 
 .menu {
-    position: fixed;
     color: black;
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 3px;
+    font-weight: none;
+}
+
+nav a:visited,
+nav a:link {
+    color: rgb(165, 177, 1);
+    text-decoration: none;
+}
+
+nav>ul {
+    display: inline;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+/*default hover affect*/
+li>a:hover {
+    color: rgb(165, 177, 1);
+    border-bottom: 5rem, solid, black;
+        border-color: black;
+}
+
+@media (hover: hover) {
+    /*when hover is supported */
+    li>a:hover {
+        color: black;
+        border-bottom: 5rem, solid, black;
+        border-color: black;
+    }
 }
 
 h1 {
     color: deeppink;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 3px;
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -61,6 +92,8 @@ h1 {
     .hamburger {
         display: none;
     }
+
+    
 }
 
 @media only screen and (max-width: 600px) {
