@@ -1,9 +1,9 @@
-/*
+
 const navButton = document.getElementById('navButton')
 const navLinks = document.getElementById('navLinks')
 
 navButton.addEventListener('click', () => navLinks.classList.toggle('responsive'))
-*/
+/*
 
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
@@ -31,3 +31,4 @@ menuItems.forEach(
     menuItem.addEventListener("click", toggleMenu);
   }
 )
+*/
