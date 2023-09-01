@@ -1,4 +1,4 @@
-
+/*
 const navButton = document.getElementById('navButton')
 const navLinks = document.getElementById('navLinks')
 
